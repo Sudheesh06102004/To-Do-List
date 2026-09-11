@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header class="header">
+        <h1>To-Do List</h1>
+    </header>
+
+    <main class="main-container">
+        <div class="date-container">
+            <h3>Date & Time</h3>
+
+            <div class="date-innerbox">
+                <h1>Date</h1>
+                <h2 class="date"></h2>
+            </div>
+            <div class="time-innerbox">
+                <h1>Time</h1>
+                <h2 class="time"></h2>
+            </div>
+        </div>
+
+
+        <div class="todo-container">
+            <h3>To-Do-List</h3>
+            <div class="input-div">
+                <input class="input" type="text" placeholder="Enter your Tasks Here...">
+                <button class="add-btn">Add Task</button>
+            </div>
+
+            <ul class="ullist">
+                <li class="list-items">Food<div class="x"><i class="fa-solid fa-check"></i></div></li>
+
+                <li class="list-items">Gym<div class="x"><i class="fa-solid fa-check"></i></div></li>
+
+                <li class="list-items">Sleep<div class="x"><i class="fa-solid fa-check"></i></div></li>
+            </ul>
+        </div>
+
+
+        <div class="completed-container">
+            <h3>Completed Tasks</h3>
+            <div class="completed-box">
+                <h4 class="completed-items"></h4>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="inner-footer"></div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
